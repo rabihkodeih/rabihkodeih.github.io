@@ -156,6 +156,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 0px;
   list-style: none;
 }
+.nofloat{
+	float: none !important;
+}
 .break{
   padding-bottom: 1em;
   clear: both;
@@ -470,6 +473,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .label-default {
   background-color: #999999;
+}
+
+.label-techinfo {
+  background-color: #088EB5;
 }
 
 .label-default[href]:hover,
